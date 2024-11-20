@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Hackathon</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cloud Hackathon Application</h1>
+    </header>
+    <main>
+        <!-- Form to submit data -->
+        <form id="dataForm">
+            <label for="dataInput">Enter Data:</label>
+            <input type="text" id="dataInput" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+
+        <!-- Button to fetch all data -->
+        <button id="fetchData">Fetch All Data</button>
+        <ul id="dataList"></ul>
+    </main>
+    <script src="/static/app.js"></script>
+</body>
+</html>
